@@ -11,10 +11,11 @@ color: black;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 padding: 24px 0;
 text-align: center;
+
 }
 header a{
     text-decoration: none;
-    color: inherit;
+    color: black;
 }
 .scorpion{
     font-weight: 800;
@@ -22,7 +23,7 @@ header a{
 }
 .f1{
     width: 100px;
-    border-radius: 50%;
+    border-radius: 60%;
 }
 header h1{
     font-size: 40px;
