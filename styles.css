@@ -23,7 +23,7 @@ header a{
 }
 .f1{
     width: 100px;
-    border-radius: 60%;
+    border-radius: 10%;
 }
 header h1{
     font-size: 40px;
@@ -93,10 +93,8 @@ form button{
 form button:hover{
     background-color: #2274cc;
 }
+
 .tradition{
-    width: 200px;
-    border-radius: 200%;
-    justify-content: center;
-    text-align: center;
-    padding: 24px 0;
+    width: 300px;
+    border-radius: 60%;
 }
