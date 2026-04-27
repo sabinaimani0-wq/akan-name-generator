@@ -93,3 +93,10 @@ form button{
 form button:hover{
     background-color: #2274cc;
 }
+.tradition{
+    width: 200px;
+    border-radius: 200%;
+    justify-content: center;
+    text-align: center;
+    padding: 24px 0;
+}
