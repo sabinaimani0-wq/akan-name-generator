@@ -44,50 +44,27 @@
         elders.
       </p>
     </section>
-    <!--gallary of the about section -->
-<section>
-    <div>
-      <img class="tradition" src="./Nyame logo.jpg" alt="Nyame" />
-      <p>
-        Nyame, the supreme deity and creator in the traditional religion of the
-        Akan people of Ghana and Ivory Coast, is deeply intertwined with the
-        Akan naming system, serving as the source of life and a primary thematic
-        element in many names. Nyame—often referred to as Onyame (the One and
-        Only God), Onyankopɔn (the Supreme Creator), or Odomankoma (the Infinite
-        Creator)—is considered the giver of the kra (soul) and all fate.
-      </p>
-      <img class="tradition" src="./clothes.jpg" alt="Akan outfits" />
-      <p>
-        The Akan naming system is intimately tied to the culture's clothing,
-        especially through Kente and Adinkra fabrics, which translate
-        philosophical tenets, proverbs, and social status into visual language.
-        Designs are chosen to reflect the bearer's destiny, identity, or the
-        occasion, particularly during the "outdooring" or naming ceremony.
-      </p>
-    </div>
-</section>
-    
-
     <!--input form-->
     <section id="form">
       <form>
-        <!-- for date of birth-->
-        <label for="Date-of-birth">Date of Birth:</label><br />
-        <input
-          type="number"
-          id="Date-of-birth"
-          name="Date-of-birth"
-        /><br /><br />
+        <!-- for day of birth-->
+        <label>Day:</label>
+        <input type="number"id="Day">
+        <!--for month of birth-->
+        <label for="month of birth">Month</label>
+        <input type="number" id="month">
+        <!--year of birth-->
+        <label for="Year of birth">Year</label>
+        <input type="number" id="year">
         <!--for gender-->
-        <label for="Gender">Gender:</label><br />
-        <input type="text" id="Gender" name="Gender" /><br /><br />
-        <button type="button" onclick="showName()">Submit</button>
+        <p class="gendertitle">Please select your gender</p>
+        <div class="gender">
+        <button type="button" onclick="selectGender('male')">Male</button>
+        <button type="button" onclick="selectGender('female')">Female </button>
+        </div>
+        <button class="namebutton" onclick="generateName()">Akan Name</button>
       </form>
     </section>
-
-    <!--this section will display your Akan name-->
-    <section id="displayAkanName">
-      <h2>This is you Akan Name</h2>
-    </section>
+    <script src="script.js" defer></script>
   </body>
 </html>
