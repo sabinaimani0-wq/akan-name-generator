@@ -16,7 +16,7 @@ To run this project locally:
 No additional installations are needed
 
 ## Live Site
-View the live website here:
+View the live website here:https://sabinaimani0-wq.github.io/akan-name-generator/
 
 ## Features
 *About the Akan Name Generator
