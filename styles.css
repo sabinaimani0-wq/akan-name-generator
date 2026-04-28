@@ -80,7 +80,7 @@ form button {
 }
 form input:focus,
 form textarea:focus {
-  border-color: #007bff;
+  border-color: #acaf19;
   outline: none;
 }
 form button {
